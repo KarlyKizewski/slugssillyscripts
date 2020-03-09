@@ -1,0 +1,37 @@
+section {
+  border-style: solid;
+  bolor-color: black;
+  border-width: .5px;
+  padding: 7px;
+  width: 100%;
+  min-width: 200px;
+  text-align: center;
+  margin: 10px;
+}
+
+#hello {
+  margin-top: 30px;
+}
+
+#slugscript {
+  margin-top: 30px;
+}
+
+p {
+  font-size: 11px;
+}
+
+hr {
+  border-width: 0.3;
+  border-color: black;
+}
+
+#headerPopup {
+  width: 75%;
+  margin:0 auto;
+}
+
+#headerPopup iframe{
+  width: 100%;
+  margin: 0 auto;
+}
