@@ -10,6 +10,8 @@
   <script src="programs.js" defer></script>
   <script src="abacus.js" defer></script>
   <script src="calcfunc.js" defer></script>
+  <script src="healthgame.js" defer></script>
+  <script src="healthattack.js" defer></script>
 </head>
 <body>
   <div class="row">
@@ -55,16 +57,31 @@
             <img src="images/medicalmask.png">
           </header>
         </div>
-      </div>
+        <div id="healthgame">
+          <section id="health-levels">
+            <h6>SARS Health</h6>
+            <progress id="monster-health" max="100" value="100">100%</progress>
+            <h6>Pu'erh Drinker Health <button id="bonus-life">+1</button></h6>
+            <progress id="player-health" max="100" value="100">100%</progress>
+          </section>
+          <section id="controls">
+            <button id="attack-btn">Shou Toucha</button><br />
+            <button id="strong-attack-btn">Sheng Cake</button><br />
+            <button id="heal-btn">Heal Qi</button><br />
+            <button id="log-btn">Steeping Log</button><br />
+          </section>
+        </div>
+    </div>
 
       <div class="col-6 col-sm-4">
-        <div id="curry">
+          <div id="curry">
             <header class="text-center">
               <img src="images/curry.png">
             </header>
           </div>
       </div>
-
+</div>
+<div class="row">
         <div class="col-6 col-sm-4">
             <div class="bs-example">
               <header class="text-center">
@@ -88,7 +105,7 @@
           </div>
         </div>
 
-    </div>
+</div>
   </body>
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
